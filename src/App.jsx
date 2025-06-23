@@ -130,7 +130,7 @@ function App() {
         <h1 className="display-5 fw-bold mt-3" style={{ color: "yellow" }}>
           Mahadev Taxi Service Rohtak
         </h1>
-        <p className="text-muted fw-semibold">Live Google Review Generator</p>
+        <p className="text-muted fw-semibold">Google Review</p>
       </div>
 
       <div className="review-card" style={{ maxWidth: 800, margin: "0 auto" }}>
