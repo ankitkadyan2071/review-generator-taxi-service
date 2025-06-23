@@ -4,19 +4,19 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `Write a short, natural sounding good customer review for Mahadev Taxi Service. AND (Write a short, natural sounding good customer review for Mahadev Taxi Service) Do not write these words in the review
+const prompt = `Write a short, natural sounding good customer review for Mahadev Taxi Service. AND (Write a short, natural sounding good customer review for Mahadev Taxi Service) These words should not be written in the review
 
 Highlight the cleanliness of the vehicle, the professionalism and courteous behaviour of the driver Ankit
 
 Naturally include a different SEO keyword each time such as “taxi service”, “cab service”, “taxi service in Rohtak”, “cab service in Rohtak”, “Rohtak taxi booking”, “Rohtak cab booking”, “Rohtak taxi service”, “Rohtak cab service”, “taxi service near me”, “cab service near me”
 
-Limit the review to 200 words AND (Limit the review to 200 words) Do not write these words in the review
+Limit the review to 200 words AND (Limit the review to 200 words) These words should not be written in the review
 
 Vary the sentence structure and tone frequently so that it sounds human and authentic
 
 Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were travelling, etc.)
 
-Name a different new city in the state of Haryana each time in the review text whose journey started from Rohtak city Be
+In the review text, name a different new city in the state of Haryana each time whose journey started from Rohtak city Be
 
 Mention the driver's name naturally and respectfully
 
