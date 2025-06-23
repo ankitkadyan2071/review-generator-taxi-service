@@ -4,23 +4,23 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `Write a short review for Business Name - Mahadev Taxi Service.
+const prompt = `Business Name – Mahadev Taxi Service Rohtak.
 
-Highlight the cleanliness of the vehicle, the professionalism and courteous behavior of the driver Ankit
+Highlight the cleanliness of the vehicle, professionalism and courteous behavior of the driver Ankit
 
-Naturally include a different SEO keyword each time such as “taxi service”, “cab service”, “taxi service in Rohtak”, “cab service in Rohtak”, “Rohtak taxi booking”, “Rohtak cab booking”, “Rohtak taxi service”, “Rohtak cab service”, “Taxi service near me”, “Cab service near me”
+Naturally include a different SEO keyword each time such as “taxi service”, “cab service”, “taxi service in Rohtak”, “cab service in Rohtak”, “Rohtak taxi booking”, “Rohtak cab booking”, “Rohtak taxi service”, “Rohtak cab service”, “taxi service near me”, “cab service near me”
 
-Limit the review to 200 words and do not write these words in the “Limit review to 200 words” review
+Limit to 200 words.
 
-Vary the sentence structure and tone frequently so that it feels human and authentic
+Vary the sentence structure and tone frequently so it sounds human and authentic
 
-Make it feel like a real personal experience (for example, state the time, how easy the trip was, why you were traveling, etc.)
+Make it feel like a real personal experience (e.g., mention the time, how easy the ride was, why you were traveling, etc.)
 
-Naturally and respectfully state the name of the driver (Ankit)
+Mention the driver’s (Markit) name naturally and respectfully
 
-Avoid repetition by starting the sentence repeatedly (for example, always start with “Fantastic”, do not start with “Experience…”)
+Avoid repetition by starting sentences repeatedly (e.g., don’t always start with “Great experience…”)
 
-Each review should be different It should sound as if it was written by another customer
+Each review should sound slightly different, as if it was written by another customer
 
 Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)
 
