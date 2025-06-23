@@ -12,23 +12,21 @@ Naturally include a different SEO keyword each time such as “taxi service”, 
 
 Limit the review to 200 words
 
-Vary the sentence structure and tone frequently so that it sounds human and authentic
+Vary the sentence structure and tone frequently so that it feels human and authentic
 
 Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were traveling, etc.)
 
-Name a different city in the state of Haryana each time in the review text
-
-Whose journey starts from the city of Rohtak
+Name a different city in the state of Haryana each time in the review text whose journey started from the city of Rohtak
 
 Mention the name of the driver (Ankit) naturally and respectfully
 
-Avoid repeating the beginning of the sentence over and over again (for example, don’t always start with “Fantastic experience...")
+Avoid repeating the beginning of the sentence over and over again (for example, don’t always start with “Great experience…”)
 
-Each review should sound slightly different, as if it were written by another customer
+Each The review should sound a little different, as if it were written by another customer
 
 Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)
 
-Don't write return review text with only the first and last name without any quotation marks or formatting.`;
+Don’t write a return review text with only the first and last name without any quotation marks or formatting.`;
 const fallbackReviews = [
   "Mahadev Taxi Service in Rohtak offers reliable, clean, and punctual rides. The drivers are courteous and know all local routes. Highly recommended!",
   "Excellent cab service near me! Driver arrived on time, vehicle was spotless, and the fare was reasonable. Will definitely use Mahadev Taxi Service again.",
