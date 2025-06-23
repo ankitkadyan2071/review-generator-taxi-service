@@ -4,23 +4,23 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `Write a short, natural sounding good customer review for Mahadev Taxi Service. AND (Write a brief, natural sounding good customer review for Mahadev Taxi Service) These words should not be written in the review
+const prompt = `Write a short, natural sounding good customer review for Mahadev Taxi Service. and (Write a short, natural sounding good customer review for Mahadev Taxi Service) Do not write these words in the review
 
 Highlight the cleanliness of the vehicle, the professionalism and courteous behaviour of the driver Ankit
 
 Naturally include a different SEO keyword each time such as “taxi service”, “cab service”, “taxi service in Rohtak”, “cab service in Rohtak”, “Rohtak taxi booking”, “Rohtak cab booking”, “Rohtak taxi service”, “Rohtak cab service”, “taxi service near me”, “cab service near me”
 
-Limit the review to 200 words AND (Limit the review to 200 words) These words should not be written in the review
+Limit the review to 200 words and (Limit the review to 200 words) Do not write these words in the review
 
 Vary the sentence structure and tone frequently so that it sounds human and authentic
 
 Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were travelling, etc.)
 
-In the review text, mention all the cities in the state of Haryana with the name of a different new city each time you visited Rohtak city starts with
+Name a different new city each time in the review text such as “Hisar, Panipat, Bhiwani, Jhajjar, Rewari, Gurgaon, Delhi, Sonipat, Chandigarh, Panchkula, Bahadurgarh, Sampla, Kalanaur, Gohana, Karnal, Bathinda, Sirsa, Fatehabad, Hansi, Dighal, Beri, etc. whose journey started from Rohtak city
 
 Mention the driver’s (Ankit) name naturally and respectfully
 
-Avoid repeating the beginning of a sentence (e.g., don’t always start with “Great experience…”)
+Avoid repeating the beginning of a sentence over and over again (for example, don’t always start with “Great experience…”)
 
 Each review should sound slightly different, as if it was written by another customer
 
