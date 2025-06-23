@@ -4,29 +4,29 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `Write a short, natural sounding good customer review for Mahadev Taxi Service. Requirements:
+const prompt = `“Write a short, natural sounding good customer review for Mahadev Taxi Service. Requirements”
 
-Highlight the cleanliness of the vehicle, the professionalism and courteous behavior of the driver Ankit
+Highlight the cleanliness of the vehicle, the professionalism and courteous behaviour of the driver Ankit
 
 Naturally include a different SEO keyword each time such as “taxi service”, “cab service”, “taxi service in Rohtak”, “cab service in Rohtak”, “Rohtak taxi booking”, “Rohtak cab booking”, “Rohtak taxi service”, “Rohtak cab service”, “taxi service near me”, “cab service near me”
 
 Limit the review to 200 words
 
-Vary the sentence structure and tone frequently so that it feels human and authentic
+Vary the sentence structure and tone frequently so that it sounds human and authentic
 
-Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were traveling, etc.)
+Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were travelling, etc.)
 
 Name a different city in the state of Haryana each time in the review text whose journey started from the city of Rohtak
 
 Mention the name of the driver (Ankit) naturally and respectfully
 
-Avoid repeating the beginning of the sentence over and over again (for example, don’t always start with “Great experience…”)
+Avoid repeating the beginning of the sentence repeatedly (for example, don’t always start with “Great experience…”)
 
-Each The review should sound a little different, as if it were written by another customer
+Each review should sound slightly different, as if it were written by another customer
 
 Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)
 
-Don’t write a return review text with only the first and last name without any quotation marks or formatting.`;
+Don’t write return review text with only a first and last name without any quotation marks or formatting.`;
 const fallbackReviews = [
   "Mahadev Taxi Service in Rohtak offers reliable, clean, and punctual rides. The drivers are courteous and know all local routes. Highly recommended!",
   "Excellent cab service near me! Driver arrived on time, vehicle was spotless, and the fare was reasonable. Will definitely use Mahadev Taxi Service again.",
