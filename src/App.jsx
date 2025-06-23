@@ -4,7 +4,31 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = ``;
+const prompt = `Write a short, natural-sounding 5-star customer review for Mahadev Taxi Service.
+
+Requirements:
+
+Highlight vehicle cleanliness, driver Ankit’s professionalism and courteous behavior
+
+Naturally include one SEO keyword such as “Taxi Service in Rohtak”, “Cab Service Near Me”, “Rohtak Taxi Booking”, or “Rohtak Cab Service”
+
+Keep the review under 100 words
+
+Vary sentence structure and tone to sound human and authentic
+
+Make it feel like a genuine personal experience (e.g., mention timing, how easy the ride was, why you were traveling, etc.)
+
+Do not mention the city name in the review text
+
+Mention the driver's name (Ankit) naturally and respectfully
+
+Avoid repeating sentence openings (e.g., don’t always start with “Fantastic experience...”)
+
+Each review should sound slightly different, as if written by a different customer
+
+Include specific, believable touchpoints (e.g., booking ease, comfort, punctuality, route knowledge, etc.)
+
+Only return the review text without any quotation marks or formatting.`;
 const fallbackReviews = [
   "Mahadev Taxi Service in Rohtak offers reliable, clean, and punctual rides. The drivers are courteous and know all local routes. Highly recommended!",
   "Excellent cab service near me! Driver arrived on time, vehicle was spotless, and the fare was reasonable. Will definitely use Mahadev Taxi Service again.",
