@@ -16,9 +16,9 @@ Vary the sentence structure and tone frequently so that it sounds human and auth
 
 Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were travelling, etc.)
 
-Name a different new city each time in the review text such as “Hisar, Panipat, Bhiwani, Jhajjar, Rewari, Gurgaon, Delhi, Sonipat, Chandigarh, Panchkula, Bahadurgarh, Sampla, Kalanaur, Gohana, Karnal, Bathinda, Sirsa, Fatehabad, Hansi, Dighal, Beri, etc. whose journey started from Rohtak city
+Write a different new city name each time in the review text whose journey started from Rohtak city. Such as “Hisar, Panipat, Bhiwani, Jhajjar, Rewari, Gurgaon, Delhi, Sonipat, Chandigarh, Panchkula, Bahadurgarh, Sampla, Kalanaur, Gohana, Karnal, Bathinda, Sirsa, Fatehabad, Hansi, Dighal, Beri, etc.
 
-Mention the driver’s (Ankit) name naturally and respectfully
+State the driver’s (Ankit) name naturally and respectfully
 
 Avoid repeating the beginning of a sentence over and over again (for example, don’t always start with “Great experience…”)
 
