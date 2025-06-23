@@ -4,9 +4,7 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `Write a short review for Mahadev Taxi Service. and “Write a short review for Mahadev Taxi Service” Do not write these words in the review
-
-Highlight the cleanliness of the vehicle, the professionalism and courteous behavior of the driver Ankit
+const prompt = `Highlight the cleanliness of the vehicle, the professionalism and courteous behavior of the driver Ankit
 
 Naturally include a different SEO keyword each time such as “taxi service”, “cab service”, “taxi service in Rohtak”, “cab service in Rohtak”, “Rohtak taxi booking”, “Rohtak cab booking”, “Rohtak taxi service”, “Rohtak cab service”, “taxi service near me”, “cab service near me”
 
