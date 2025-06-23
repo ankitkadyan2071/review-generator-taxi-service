@@ -4,7 +4,7 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `“Write a short, natural sounding good customer review for Mahadev Taxi Service. Requirements”
+const prompt = `
 
 Highlight the cleanliness of the vehicle, the professionalism and courteous behaviour of the driver Ankit
 
