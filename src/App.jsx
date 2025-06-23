@@ -18,15 +18,17 @@ Make it feel like a real personal experience (for example, mention the time, how
 
 Name a different city in the state of Haryana each time in the review text
 
-Mention the driver’s name (Ankit) naturally and respectfully
+Whose journey starts from the city of Rohtak
 
-Avoid repeating the beginning of the sentence over and over again (for example, don’t always start with “Great experience…”)
+Mention the name of the driver (Ankit) naturally and respectfully
 
-Each review should sound a little different, as if it was written by someone else Must be written by another customer
+Avoid repeating the beginning of the sentence over and over again (for example, don’t always start with “Fantastic experience...")
+
+Each review should sound slightly different, as if it were written by another customer
 
 Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)
 
-Do not write return review text with only the first and last name without any quotation marks or formatting.`;
+Don't write return review text with only the first and last name without any quotation marks or formatting.`;
 const fallbackReviews = [
   "Mahadev Taxi Service in Rohtak offers reliable, clean, and punctual rides. The drivers are courteous and know all local routes. Highly recommended!",
   "Excellent cab service near me! Driver arrived on time, vehicle was spotless, and the fare was reasonable. Will definitely use Mahadev Taxi Service again.",
