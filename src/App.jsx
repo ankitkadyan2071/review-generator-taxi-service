@@ -16,17 +16,17 @@ Vary the sentence structure and tone frequently so that it sounds human and auth
 
 Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were travelling, etc.)
 
-Write a different new city name each time in the review text whose journey started from Rohtak city. Such as “Hisar, Panipat, Bhiwani, Jhajjar, Rewari, Gurgaon, Delhi, Sonipat, Chandigarh, Panchkula, Bahadurgarh, Sampla, Kalanaur, Gohana, Karnal, Bathinda, Sirsa, Fatehabad, Hansi, Dighal, Beri, etc.
+Write a different new city name each time in the review text whose journey started from Rohtak city. Such as “Hisar, Panipat, Bhiwani, Jhajjar, Rewari, Gurgaon, Delhi, Sonipat, Chandigarh, Panchkula, Bahadurgarh, Sampla, Kalanaur, Gohana, Karnal, Bathinda, Sirsa, Fatehabad, Hansi, Dighal, Beri, etc. and every time the trip starts from Rohtak
 
-State the driver’s (Ankit) name naturally and respectfully
+Mention the driver’s (Ankit) name naturally and respectfully
 
-Avoid repeating the beginning of a sentence over and over again (for example, don’t always start with “Great experience…”)
+Avoid repeating the beginning of the sentence over and over again (for example, don’t always start with “Great experience…”)
 
 Each review should sound slightly different, as if it was written by another customer
 
 Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)
 
-Don’t write a return review text with only the first and last name without any quotation marks or formatting.`;
+Don’t write return review text with only first and last name without any quotation marks or formatting.`;
 const fallbackReviews = [
   "Mahadev Taxi Service in Rohtak offers reliable, clean, and punctual rides. The drivers are courteous and know all local routes. Highly recommended!",
   "Excellent cab service near me! Driver arrived on time, vehicle was spotless, and the fare was reasonable. Will definitely use Mahadev Taxi Service again.",
