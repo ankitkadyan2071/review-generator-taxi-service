@@ -4,7 +4,7 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `Write a short, natural sounding good customer review for Mahadev Taxi Service. AND (Write a short, natural sounding good customer review for Mahadev Taxi Service) These words should not be written in the review
+const prompt = `Write a short, natural sounding good customer review for Mahadev Taxi Service. AND (Write a brief, natural sounding good customer review for Mahadev Taxi Service) These words should not be written in the review
 
 Highlight the cleanliness of the vehicle, the professionalism and courteous behaviour of the driver Ankit
 
@@ -16,17 +16,17 @@ Vary the sentence structure and tone frequently so that it sounds human and auth
 
 Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were travelling, etc.)
 
-In the review text, name a different new city in the state of Haryana each time whose journey started from Rohtak city Be
+In the review text, mention all the cities in the state of Haryana with the name of a different new city each time you visited Rohtak city starts with
 
-Mention the driver's name naturally and respectfully
+Mention the driver’s (Ankit) name naturally and respectfully
 
-Avoid repeating the beginning of a sentence (e.g., don't always start with “Great experience...”)
+Avoid repeating the beginning of a sentence (e.g., don’t always start with “Great experience…”)
 
-Each review should sound slightly different, as if it were written by another customer
+Each review should sound slightly different, as if it was written by another customer
 
 Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)
 
-Don't write a return review text with only the first and last name without any quotation marks or formatting.`;
+Don’t write a return review text with only the first and last name without any quotation marks or formatting.`;
 const fallbackReviews = [
   "Mahadev Taxi Service in Rohtak offers reliable, clean, and punctual rides. The drivers are courteous and know all local routes. Highly recommended!",
   "Excellent cab service near me! Driver arrived on time, vehicle was spotless, and the fare was reasonable. Will definitely use Mahadev Taxi Service again.",
