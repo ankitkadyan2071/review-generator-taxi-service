@@ -4,7 +4,7 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `
+const prompt = `“Write a short, natural sounding good customer review for Mahadev Taxi Service. Requirements”
 
 Highlight the cleanliness of the vehicle, the professionalism and courteous behaviour of the driver Ankit
 
@@ -16,7 +16,7 @@ Vary the sentence structure and tone frequently so that it sounds human and auth
 
 Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were travelling, etc.)
 
-Name a different city in the state of Haryana each time in the review text whose journey started from the city of Rohtak
+Name a different new city in the state of Haryana each time in the review text whose journey started from the city of Rohtak
 
 Mention the name of the driver (Ankit) naturally and respectfully
 
