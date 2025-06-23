@@ -4,21 +4,21 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = `Highlight the cleanliness of the vehicle, the professionalism and courteous behavior of the driver Ankit
+const prompt = `Highlight the cleanliness of the vehicle, the professionalism and courteous behaviour of the driver Ankit
 
 Naturally include a different SEO keyword each time such as “taxi service”, “cab service”, “taxi service in Rohtak”, “cab service in Rohtak”, “Rohtak taxi booking”, “Rohtak cab booking”, “Rohtak taxi service”, “Rohtak cab service”, “taxi service near me”, “cab service near me”
 
-Limit the review to 200 words and (Limit the review to 200 words) Do not write these words in the review
+Limit the review to 100 words and (limit the review to 200 words) do not write these words in the review
 
 Vary the sentence structure and tone frequently so that it sounds human and authentic
 
-Make it feel like a real personal experience (for example, mention the time, how easy the trip was, why you were traveling, etc.)
+Make it feel like a real personal experience (for example, mention the time, how easy the journey was, why you were travelling, etc.)
 
-Mention the driver (Ankit)’s name naturally and respectfully
+Mention the name of the driver (Ankit) naturally and respectfully
 
-Avoid repetition Start the sentence repeatedly (for example, always start with “fantastic Don’t start with “Experience…”)
+Avoid repetition by starting the sentence repeatedly (for example, always start with “Fantastic” do not start with “Experience…”)
 
-Each review should sound slightly different, as if it were written by another customer
+Each review should sound different, As if it were written by another customer
 
 Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)
 
