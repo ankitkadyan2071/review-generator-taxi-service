@@ -4,7 +4,29 @@ import "./App.css";
 const GROQ_API_KEY = "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";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
-const prompt = ``;
+const prompt = `Write a brief, natural-sounding 5-star customer review for Mahadev Taxi Service. Requirements:
+
+Highlight the cleanliness of the vehicle, the professionalism and courteous behaviour of the driver Ankit
+
+Naturally include a different SEO keyword each time such as “taxi service”, “cab service”, “taxi service in Rohtak”, “cab service in Rohtak”, “Rohtak taxi booking”, “Rohtak cab booking”, “Rohtak taxi service”, “Rohtak cab service”, “taxi service near me”, “cab service near me”
+
+Keep the review to 200 words
+
+Vary the sentence structure and tone frequently to sound human and authentic
+
+Make it feel like a real personal experience (e.g., mention the time, how easy the journey was, why you were travelling, etc.)
+
+Mention the name of a different city in Haryana state each time in the review text
+
+Mention the driver’s name (Ankit) naturally and respectfully
+
+Avoid repeating the beginning of the sentence again and again (e.g., don’t always start with “great experience...”)
+
+Each review should sound a little different, e.g. It must be written by another customer
+
+Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)
+
+Don’t write a return review text with just the first and last name without any quotation marks or formatting.`;
 const fallbackReviews = [
   "Mahadev Taxi Service in Rohtak offers reliable, clean, and punctual rides. The drivers are courteous and know all local routes. Highly recommended!",
   "Excellent cab service near me! Driver arrived on time, vehicle was spotless, and the fare was reasonable. Will definitely use Mahadev Taxi Service again.",
