@@ -39,8 +39,7 @@ const fallbackReviews = [
   "Outstanding experience with Mahadev Taxi Service! Professional service, clean vehicles, and always punctual. My go-to cab service in Rohtak!"
 ];
 
-function getFallbackReview() {
-  return fallbackReviews[Math.floor(Math.random() * fallbackReviews.length)];
+
 }
 
 function App() {
