@@ -21,7 +21,7 @@ Avoid repetition by starting the sentence repeatedly (e.g., always start with â€
 Each review should sound distinct, as if it was written by another customer
 
 Include specific, credible touchpoints (e.g., ease of booking, comfort, punctuality, route information, etc.)`;
-const fallbackReviews = [
+[
   "Mahadev Taxi Service in Rohtak offers reliable, clean, and punctual rides. The drivers are courteous and know all local routes. Highly recommended!",
   "Excellent cab service near me! Driver arrived on time, vehicle was spotless, and the fare was reasonable. Will definitely use Mahadev Taxi Service again.",
   "Best taxi service in Rohtak! Professional drivers, well-maintained cars, and always punctual. Great local knowledge too. 5 stars!",
